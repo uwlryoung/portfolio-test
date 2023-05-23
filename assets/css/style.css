@@ -109,7 +109,7 @@ nav li {
     margin-bottom: 30px;
 }
 
-.projects {
+.portfolio-projects {
     display: flex;
     flex: 80%;
     justify-content: space-evenly;
@@ -117,43 +117,75 @@ nav li {
     padding: 0 60px 0 60px;
 }
 
-.highlighted-work {
+.project {
     margin: 10px;
-    width: 100%;
-    flex: 1 1 100%;
 }
 
-.highlighted-work img {
+.project a {
+    color: var(--butter); 
+    text-decoration: none;
+}
+
+
+#image1 {
     width: 100%;
     height: 400px;
-    object-fit: cover;
-    border: solid black 3px;
+    background-image: url("../images/bird.jpeg");
+    background-position: center; 
+    background-size: cover;   
+    border: var(--light-purple) solid 7px;
 }
 
-
-#project_set_2, #project_set_3{
-    display: flex;
+#image2 {
+    width: 48%;
+    height: 200px;
+    background-image: url("../images/mail-box.jpeg");
+    background-position: center; 
+    background-size: cover;   
+    border: var(--light-purple) solid 7px;
 }
 
-#image1
-#image2, 
-#image3, 
-#image4, 
+#image3 {
+    width: 48%;
+    height: 200px;
+    background-image: url("../images/mountains.jpeg");
+    background-position: center; 
+    background-size: cover;   
+    border: var(--light-purple) solid 7px;
+}
+
 #image4 {
-    display: flex;
-    flex: 50%;
+    width: 48%;
+    height: 200px;
+    background-image: url("../images/red\ fox.jpeg");
+    background-position: center; 
+    background-size: cover;   
+    border: var(--light-purple) solid 7px;
+}
+
+#image5 {
+    width: 48%;
+    height: 200px;
+    background-image: url("../images/colored-huts.jpeg");
+    background-position: center; 
+    background-size: cover;   
+    border: var(--light-purple) solid 7px;
 }
 
 #image1:hover,
 #image2:hover, 
 #image3:hover, 
 #image4:hover, 
-#image4:hover {
+#image5:hover {
     opacity: .80;
     border: solid gold 7px;
 }
 
+.image-cap {
+    font-size: 30px;
+}
 
+/* 
 #image1 .image-cap {
     color: var(--light-purple);
     font-size: 40px;
@@ -192,7 +224,7 @@ nav li {
     height: 25%;
     padding: 5px;
     text-align: right;
-}
+} */
 
 footer {
     background-color: var(--light-purple);
