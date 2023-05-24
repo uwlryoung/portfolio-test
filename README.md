@@ -13,6 +13,9 @@ Adding just one more thing to make a change.
 Standard webpage. 
 
 ## Credits
+Hero-Pic Image from: https://www.pexels.com/ 
+Project Images from: https://www.freepik.com/vectors/background
+
 ### Useful Links
 
 
