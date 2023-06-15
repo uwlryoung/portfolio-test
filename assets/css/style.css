@@ -136,11 +136,11 @@ nav li {
 #image1 {
     width: 100%;
     height: 400px;
-    background-image: url("../images/password-with-binary-code-hand-holding-magnifying-glass_23-2148578089.avif");
+    background-image: url("../images/password-generator.png");
 }
 
 #image2 {
-    background-image: url("../images/elegant-alcohol-ink-hand-painted.avif");
+    background-image: url("../images/coding-quiz.png");
 }
 
 #image3 {
@@ -148,7 +148,7 @@ nav li {
 }
 
 #image4 {
-    background-image: url("../images/minimal-geometric-stripe-shape.avif");
+    background-image: url("../images/elegant-alcohol-ink-hand-painted.avif");
 }
 
 #image5 {
